@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Work to-dos</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./root/styles/Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="main">
+        <div id="description">
+            <h1>TO-DO LIST</h1>
+            <p><i id="check" class="fa fa-check"></i>  Enter text in the input field to add items to your list. <br/>
+               <i id="check" class="fa fa-check"></i>  click "<i class="fa fa-pencil" aria-hidden="true"></i>" to mark it as complete. <br />
+               <i id="check" class="fa fa-check"></i>  click "<i class="fa fa-times" aria-hidden="true"></i>" to remove the item from list.
+            </p>
+        </div>
+        <div id="input">
+            <input type="text" name="to-do" placeholder="Add an item..." required/>
+            <button type="submit" value="add"><i class="fa fa-pencil" aria-hidden="true"></i></button>  
+        </div>
+        <div id="list">
+            <ul id="todo">
+                
+            </ul>
+        </div>
+    </div>
+  <script src="./root/scripts/To-do list.js"></script>
+</body>
+</html>
